@@ -1,0 +1,5 @@
+*.ncb *.opt *.aps *.plg *.zip *.001 *.gz
+serproxy
+Debug
+Release
+Output

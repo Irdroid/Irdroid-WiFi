@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 60
+zconf.hash.c
+conf
+zconf.lex.c
+mconf
+zconf.tab.c
+mconf_check
+
+END

@@ -1,0 +1,25 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2007 OpenWrt.org
+ 
+ START=95
+  
+  start() {        
+          
+          # commands to launch application
+          # in case your lirc dev points are not created automatically, the next
+          # line will create them.
+          test -c /var/run/lirc || (mkdir -p -- . /var/run/lirc && /bin/mknod /var/run/lirc c 61 0)
+        #  echo -n "Starting lirc daemon: lircd '\n'"
+ 
+       nice -n -10 /usr/sbin/lircd --device=/dev/ttyACM0 --listen=8765
+
+          
+          }                 
+                 
+ stop() {          
+       
+#echo -n "Stopping lirc daemon: lircd\n"
+ killall -sigkill lircd
+
+ 
+  }

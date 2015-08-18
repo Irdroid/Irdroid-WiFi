@@ -1,0 +1,206 @@
+10
+
+dir
+40569
+svn://svn.openwrt.org/openwrt/trunk/target/linux
+svn://svn.openwrt.org/openwrt
+
+
+
+2014-04-23T22:02:18.220980Z
+40565
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+orion
+dir
+
+octeon
+dir
+
+pxa
+dir
+
+ar7
+dir
+
+kirkwood
+dir
+
+bcm53xx
+dir
+
+adm8668
+dir
+
+avr32
+dir
+
+rb532
+dir
+
+brcm2708
+dir
+
+cobalt
+dir
+
+ixp4xx
+dir
+
+sunxi
+dir
+
+cns21xx
+dir
+
+au1000
+dir
+
+mxs
+dir
+
+sparc
+dir
+
+adm5120
+dir
+
+mpc83xx
+dir
+
+mpc85xx
+dir
+
+brcm63xx
+dir
+
+Makefile
+file
+
+
+
+
+2015-02-01T17:19:40.424405Z
+55fb5f5cfdb9d1cfb51fc1b22e4dbdec
+2010-08-06T21:36:35.923261Z
+22518
+lars
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+373
+
+mvebu
+dir
+
+brcm47xx
+dir
+
+realview
+dir
+
+imx6
+dir
+
+amazon
+dir
+
+x86
+dir
+
+xburst
+dir
+
+lantiq
+dir
+
+ar71xx
+dir
+
+ramips
+dir
+
+omap
+dir
+
+uml
+dir
+
+malta
+dir
+
+x86_64
+dir
+
+sibyte
+dir
+
+ep93xx
+dir
+
+atheros
+dir
+
+mpc52xx
+dir
+
+mcs814x
+dir
+
+gemini
+dir
+
+generic
+dir
+
+cns3xxx
+dir
+
+at91
+dir
+
+ppc40x
+dir
+
+omap24xx
+dir
+
+ppc44x
+dir
+
+iop32x
+dir
+

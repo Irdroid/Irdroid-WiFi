@@ -1,0 +1,8 @@
+Package: serwebproxy
+Version: 1
+Depends: libc, libpthread, libopenssl
+Source: package/utils/serwebproxy
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 9837
+Description:  serwebproxy -- prints a snarky message

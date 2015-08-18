@@ -1,0 +1,7 @@
+config RCSWITCH
+	tristate "RCSWITCH 433MHZ driver"
+	help
+	  This is an RCSWITCH 433MHZ driver
+
+	  This support is also available as a module.  If so, the module
+	  will be called rcswitch.

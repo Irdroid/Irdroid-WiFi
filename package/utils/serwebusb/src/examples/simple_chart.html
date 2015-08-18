@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="simple_chart.js"></script>
+<link rel="stylesheet" type="text/css" href="default.css" />
+<title>SerWebProxy example - Simple Chart</title>
+</head>
+<body>
+  <div id="wrapper">
+  	<div id="container">
+        <canvas id="dataCanvas" width="640" height="260" ></canvas>
+		<br />
+        <div id="dataLog">
+			<p>This example assumes that two numeric values beetween 0-255 come from serial device periodically. Values need to be separated by 
+			empty space and there must be EOL (line change) at the end. These two values are used to draw simple chart. Chart is only updated when new data arrives.</p>
+			<p>Example also shows how to parse imaginary 'Command' lines from incoming data. It expects to receive lines like :<br/><br/>
+			<b>Command X received.</b><br/><br/>This data is not used, but is displayed on dataLog.</p>
+			<p>Example project for Arduino is included, it manipulates values based on keycode received.</p>
+			<p>Host is localhost:5331 (change this from .js if you need to).</p>
+		</div>
+	<div id="buttons">
+        <button id="disconnect">Disconnect</button>
+        <button id="connect">Connect</button>
+		<input id="text" type="text" />
+		<button id="send">Send</button>
+	</div>  
+  </div>
+  	<div>
+</body>
+</html>​

@@ -1,0 +1,67 @@
+10
+
+dir
+40569
+svn://svn.openwrt.org/openwrt/trunk/package/kernel/lantiq
+svn://svn.openwrt.org/openwrt
+
+
+
+2014-04-09T16:31:24.745428Z
+40437
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+ltq-adsl-fw
+dir
+
+ltq-deu
+dir
+
+ltq-tapi
+dir
+
+ltq-hcd
+dir
+
+ltq-ptm
+dir
+
+ltq-vdsl-mei
+dir
+
+ltq-atm
+dir
+
+ltq-vdsl-fw
+dir
+
+ltq-vmmc
+dir
+
+ltq-adsl
+dir
+
+ltq-ifxos
+dir
+
+ltq-vdsl
+dir
+
+ltq-adsl-mei
+dir
+

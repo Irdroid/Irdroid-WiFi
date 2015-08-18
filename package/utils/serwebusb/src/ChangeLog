@@ -1,0 +1,16 @@
+v1.12 - 05/08/2012
+
+Added support for WebSocket end frame (sent from browser by ws.close())
+
+v1.1 - 28/06/2012
+
+Added support for HTTP GET requests
+Cleanups (moved junk from main.c to http.c and websocket.c)
+
+v1.0b - 21/01/2012
+
+Fixes for example config file and some other cleanup
+
+v1.0 - 05/01/2012
+
+First release, fork of serproxy 0.1.2

@@ -1,0 +1,14 @@
+UNIX serwebproxy installation instructions
+---------------------------------------
+
+Source distribution
+-------------------
+1. Unpack the sources.
+2. 'cd' into the source directory
+3. Type 'make' to compile
+4. If all goes well, become root and type 'make install',
+   which will install the 'serwebproxy' binary to /usr/local/bin
+5. Copy the config file 'serwebproxy.cfg' to /etc
+6. Edit /etc/serwebproxy.cfg to configure the proxy.
+   
+Make sure you have openSSL libraries and headers installed.

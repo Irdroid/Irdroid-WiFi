@@ -1,0 +1,43 @@
+#!/bin/ash
+
+echo "Content-type: text/html"
+echo ""
+
+echo '<html>'
+echo '<head>'
+echo '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">'
+echo '<title>Environment Variables</title>'
+echo '<link rel="stylesheet" type="text/css" href="http://192.168.2.1/styles.css" />'
+echo '</head>'
+echo '<body>'
+
+
+
+                                                                                                                                                                                                                                                                                    echo '<div id="container">'
+                                                                                                                                                                                                                                                                                    echo '<div id="listingcontainer">'
+                                                                                                                                                                                                                                                                                    echo '<div id="listingheader">'
+                                                                                                                                                                                                                                                                                    echo '<div id="listing">'
+                                                                                                                                                                                                                                                                                      echo '<H2>Clearing Database:</H2>' 
+                                                                                                                                                                                                                                                                                        echo '<br>'
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                         rm /etc/lircd.conf
+                                                                                                                                                                                                                                                                                         touch /etc/lircd.conf
+                                                                                                                                                                                                                                                                                        echo '<br>'
+                                                                                                                                                                                                                                                                                        echo '<br>'
+                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                         echo '<br>'
+                                                                                                                                                                                                                                                                                         echo 'Done!'
+                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                            echo '<br>'
+                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                echo '<br>'
+                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                 echo '</div>'
+                                                                                                                                                                                                                                                                                                 echo '</div>'
+                                                                                                                                                                                                                                                                                                 echo '</div>'
+                                                                                                                                                                                                                                                                                                 echo '</div>' 
+                                                                                                                                                                                                                                                                                                  echo '</body>'
+                                                                                                                                                                                                                                                                                                  echo '</html>'
+                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                  exit 0

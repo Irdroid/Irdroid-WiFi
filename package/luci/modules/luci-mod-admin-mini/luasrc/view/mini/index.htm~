@@ -1,0 +1,15 @@
+<%#
+ Copyright 2008 Steven Barth <steven@midlink.org>
+ Copyright 2008 Jo-Philipp Wich <jow@openwrt.org>
+ Licensed to the public under the Apache License 2.0.
+-%>
+
+<h2><a id="content" name="content"><%:PRX800%></a></h2>
+<p><%_This is the administration area of <abbr title="Lua Configuration Interface">PRX800</abbr>.%></p>
+<p><%_<abbr title="PRX800 Web Configuration">PRX800</abbr> is flexible, and user friendly graphical interface for configuring PRX800.%><br />
+<%:On the following pages you can adjust all important settings of this device.%></p>
+<p><%:And now have fun with your PRX800 device!%></p>
+<%- end -%>
+	<%+footer%>
+
+

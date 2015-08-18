@@ -1,0 +1,46 @@
+
+
+int inByte = 0;         // incoming serial byte
+int iWalker = 0;
+int dir = 0;
+
+void setup(){
+
+  Serial.begin(9600);
+   
+}
+
+void loop(){
+
+  if (Serial.available() > 0) {
+
+    inByte = Serial.read();
+    
+    Serial.print("Command ");
+    Serial.print(inByte,HEX);
+    Serial.println(" received.");   
+    
+    iWalker = 0;
+    
+  }else{
+    
+    // send to values to serial, other is last keycode, other is looping number
+      
+    Serial.print(inByte, DEC);
+    Serial.print(" ");
+    Serial.println(iWalker, DEC);   
+      
+  }
+  
+  if( dir == 0){
+    iWalker++;
+  }else if( dir == 1 ){
+    iWalker--; 
+  }
+
+  if( iWalker == 100 ) dir = 1;
+  else if( iWalker == 0 ) dir = 0;
+
+  delay(250);
+}
+

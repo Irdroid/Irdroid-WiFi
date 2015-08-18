@@ -1,0 +1,19 @@
+WIN32 serwebproxy installation instructions
+----------------------------------------
+
+From sources:
+
+1. Unpack the sources.
+2. Download and install openSSL libraries and headers to
+C:\OpenSSL-Win32 (or change correct path to project)
+3. Compile the serwebproxy solution with MS Visual Stdudio.
+4. Edit serwebproxy.cfg to configure the proxy.
+5. Make sure serwebproxy.cfg is in the same folder as serwebroxy.exe
+   before running.
+
+From pre-compiled binaries:
+
+1. Make sure you have openSSL libraries installed
+2. Unzip files to a folder.
+3. Edit serwebproxy.cfg to configure the proxy.
+   

@@ -1,0 +1,21 @@
+config wifi-device  radio0
+	option type     mac80211
+	option channel  6 
+	option hwmode	11ng
+	option path	'10180000.wmac'
+	list ht_capab	GF
+	list ht_capab	SHORT-GI-20
+	list ht_capab	SHORT-GI-40
+	list ht_capab	RX-STBC1
+	option htmode	HT20
+	# REMOVE THIS LINE TO ENABLE WIFI:
+	option disabled 0
+
+config wifi-iface
+	option device   radio0
+	option network  wifi
+	option mode     ap
+	option ssid     Irdroid
+	option encryption psk
+	option key Irdroid1234
+

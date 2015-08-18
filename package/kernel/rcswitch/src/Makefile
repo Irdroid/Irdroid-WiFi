@@ -1,0 +1,1 @@
+obj-${CONFIG_RCSWITCH}	+= rcswitch.o
