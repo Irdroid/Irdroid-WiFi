@@ -1,4 +1,4 @@
-# Irdroid WiFi v3.0 firmware 
+# Irdroid WiFi to Infrared adapter firmware 
 
 Wirelessly control infrared devices over a network and the Internet. The Irdroid WIFI provides a new level of automation and control flexibility without depending on line of sight, batteries, or flaky wireless protocols like Bluetooth. This product is certified for use with Amote and NFC Remote to provide compatibility with all supported infrared devices for locations with a wireless connection to the localnetwork
 
